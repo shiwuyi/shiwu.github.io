@@ -1,0 +1,98 @@
+header .logo {
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid #c81523;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid grey;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid grey;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.registerarea h3 .login {
+    float: right;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.registerarea h3 .login a {
+    color: #c81523;
+}
+
+
+.reg_form {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.reg_form ul li lable {
+    display: inline-block;
+    height: 15px;
+    width: 100px;
+    text-align: right;
+}
+
+.reg_form ul li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid grey;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+form li span i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/error.png") no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+form li span {
+    color: #c81523;
+}
+
+.agree {
+    width: 240px;
+    height: 36px;
+
+    text-align: center;
+    margin-left: 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.sub {
+    width: 240px;
+    height: 36px;
+    margin: 50px auto;
+}
+
+.sub input {
+    width: 240px;
+    height: 36px;
+
+    text-align: center;
+    background-color: #c81523;
+    color: #ececec;
+}
+
+
+.footer {
+    text-align: center;
+}

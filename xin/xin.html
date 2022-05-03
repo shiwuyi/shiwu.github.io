@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>你好</title>
+    <link rel="shortcut icon" href="./bitbug_favicon.ico" />
+    <meta name="keywords" content="表情包">
+    <meta name="description" content="最好的表情包">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+
+        }
+
+        .shortcut {
+            background-color: burlywood;
+            height: 25px;
+            line-height: 25px;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .fr ul li {
+            float: left;
+        }
+
+        .fr ul li:nth-child(even) {
+            width: 2px;
+            height: 14px;
+            background-color: black;
+            margin: 5px 10px;
+
+        }
+
+        .header {
+            position: relative;
+            height: 100px;
+        }
+
+        .logo {
+            float: left;
+            width: 300px;
+            height: 100px;
+            background: url("../images/logo.png") no-repeat;
+        }
+    .logo a{
+        display: block;
+        /* font-size: 0; */
+        text-indent: -9999px;
+        overflow: hidden;
+    }
+
+        .search {
+            position: absolute;
+            left: 500px;
+            float: left;
+            width: 500px;
+            height: 20px;
+            border: 2px solid red;
+        }
+
+        input {
+            float: left;
+            width: 450px;
+            height: 20px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+        }
+
+        .count {
+            margin-left: 100px;
+            width: 10px;
+            height: 10px;
+            background-color: orangered;
+            border-radius: 5px 5px 5px 0;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="shortcut">
+        <div class="fl">注册</div>
+        <div class="fr">
+            <ul>
+                <li>1</li>
+                <li></li>
+                <li>1</li>
+                <li></li>
+                <li>1</li>
+            </ul>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo"><h1><a href="#" title="hh">我是蘑菇头</a></h1></div>
+        <div class="search"><input type="text"></div>
+        <div class="car"></div>
+    </div>
+    <div class="count"></div>
+
+</body>
+
+</html>
